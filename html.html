@@ -47,6 +47,13 @@
     />
     <label>Framework</label>
     <input
+      onchange="toggleImage('candleImage')"
+      checked
+      type="checkbox"
+      name="candle"
+    />
+    <label>Candle</label>
+    <input
       onchange="toggleImage('topperImage')"
       checked
       type="checkbox"
@@ -60,6 +67,7 @@
     <img id="lightsImage" src="images/lights.png" />
     <img id="snowmanImage" src="images/snowman.png" />
     <img id="frameworkImage" src="images/framework.png" />
+    <img id="candleImage" src="images/candle.png" />
 
     <script>
       function toggleImage(imageId) {
